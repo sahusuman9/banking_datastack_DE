@@ -1,9 +1,11 @@
-import os
 import json
-import requests
+import os
 import sys
-sys.stdout.reconfigure(encoding='utf-8')
+
+import requests
 from dotenv import load_dotenv
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 # -----------------------------
 # Load environment variables

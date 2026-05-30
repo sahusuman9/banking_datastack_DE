@@ -1,13 +1,15 @@
-import time
-import psycopg2
-from decimal import Decimal, ROUND_DOWN
-from faker import Faker
-import random
 import argparse
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
 import os
+import random
+import sys
+import time
+from decimal import Decimal, ROUND_DOWN
+
+import psycopg2
 from dotenv import load_dotenv
+from faker import Faker
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 load_dotenv()
 
